@@ -2,11 +2,11 @@
 layout: project_page
 permalink: /
 
-title: On Computable Numbers, with an Application to the Entscheidungsproblem
+title: VORM
 authors:
-    A. M. Turing
+    Hyojeong Kim, Minji Kim, Changhwan Kim
 affiliations:
-    King's College, Cambridge
+    Korea Institute of Science and Technology
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/topics/turing-machines
