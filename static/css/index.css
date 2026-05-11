@@ -74,6 +74,10 @@ body {
    color: hsl(204, 86%, 53%) !important;
 }
 
+.publication-authors .author-name {
+   color: hsl(204, 86%, 53%);
+}
+
 .publication-authors a:hover {
     text-decoration: underline;
 }

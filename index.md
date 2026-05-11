@@ -4,9 +4,11 @@ permalink: /
 
 title: VORM
 authors:
-    Hyojeong Kim, Minji Kim, Changhwan Kim
+    <span class="author-name">Hyojeong Kim</span><sup>1,2</sup>, 
+    <span class="author-name">Minji Kim</span><sup>1,3</sup>, 
+    <span class="author-name">Changhwan Kim</span><sup>1</sup>
 affiliations:
-    Korea Institute of Science and Technology
+    <sup>1</sup>Korea Institute of Science and Technology, <sup>2</sup>Korea University, <sup>3</sup>Hanyang University
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/topics/turing-machines
