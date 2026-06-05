@@ -78,16 +78,16 @@ We evaluate VORM on two tasks: obstruction reasoning and feasibility reasoning. 
 
 ##### Obstruction Reasoning
 
-| Method | Precision | Recall | F1 | Low F1* | Mid F1* | High F1* |
-|--------|-----------|--------|----|---------|---------|----------|
+| Method | Precision | Recall | F1 | Low F1 | Mid F1 | High F1 |
+|--------|-----------|--------|----|--------|--------|---------|
 | **VORM (Ours)** | **0.921** | 0.911 | **0.923** | **0.935** | **0.923** | **0.912** |
 | MC+FCL | 0.721 | **0.931** | 0.813 | 0.827 | 0.815 | 0.805 |
 | GRN | 0.449 | 0.241 | 0.314 | 0.316 | 0.321 | 0.305 |
 
 ##### Feasibility Reasoning
 
-| Method | Precision | Recall | F1 | Low F1* | Mid F1* | High F1* |
-|--------|-----------|--------|----|---------|---------|----------|
+| Method | Precision | Recall | F1 | Low F1 | Mid F1 | High F1 |
+|--------|-----------|--------|----|--------|--------|---------|
 | **VORM (Ours)** | 0.933 | **0.912** | **0.923** | **0.933** | **0.922** | **0.913** |
 | MC+FCL | **0.965** | 0.372 | 0.537 | 0.511 | 0.540 | 0.557 |
 | GRN | 0.310 | 0.391 | 0.346 | 0.327 | 0.350 | 0.355 |
