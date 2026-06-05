@@ -176,7 +176,7 @@ body {
   display:flex;
   flex-direction:column;
   gap:8px;
-  width:170px;
+  width:175px;
   flex:0 0 auto;
 }
 .vorm-divider{
