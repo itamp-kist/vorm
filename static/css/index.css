@@ -159,3 +159,65 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+/* ---- VORM simulation video viewer ---- */
+.vorm-viewer{
+  display:flex;
+  gap:18px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  margin:1.5rem 0;
+  background:#f5f5f5;
+  border-radius:12px;
+  padding:18px;
+}
+/* 왼쪽: 버튼 한 열 */
+.vorm-controls{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  width:170px;
+  flex:0 0 auto;
+}
+.vorm-divider{
+  height:1px;
+  background:#dcdcdc;
+  margin:6px 0;
+}
+.vorm-btn{
+  display:block;
+  width:100%;
+  text-align:center;
+  padding:9px 12px;
+  font-size:14px;
+  font-weight:500;
+  cursor:pointer;
+  border:1px solid #d9d9d9;
+  border-radius:8px;
+  background:#ececec;
+  color:#444;
+  transition:all .12s ease;
+}
+.vorm-btn:hover{ background:#e0e0e0; }
+.vorm-btn.active{
+  background:#333;
+  color:#fff;
+  border-color:#333;
+}
+/* 오른쪽: 영상 */
+.vorm-stage{
+  flex:1 1 360px;
+  min-width:300px;
+}
+.vorm-stage video{
+  width:100%;
+  height:auto;
+  border-radius:12px;
+  border:1px solid #e2e2e2;
+  background:#000;
+  display:block;
+}
+@media (max-width:600px){
+  .vorm-controls{ width:100%; flex-direction:row; flex-wrap:wrap; }
+  .vorm-btn{ width:auto; flex:1 1 30%; }
+}
