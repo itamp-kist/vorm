@@ -121,11 +121,18 @@ VORM achieves the highest F1 on both obstruction and feasibility reasoning acros
   // scene 버튼 목록: 버튼 하나당 { label: 표시이름, file: 영상파일이름 }
   // label = 버튼에 보이는 글자, file = BASE 폴더 안의 mp4 파일 이름
   var scenes = [
-    { label:"CellShelfDesk",     file:"CellShelfDesk.mp4" },
-    { label:"Desk",              file:"Desk.mp4" },
-    { label:"DoubleDoorCabinet", file:"DoubleDoorCabinet.mp4" },
-    { label:"Drawer",            file:"Drawer.mp4" },
-    { label:"LargeShelf",        file:"LargeShelf.mp4" },
+    { label:"CellShelfDesk",         file:"CellShelfDesk.mp4" },
+    { label:"Desk",                  file:"Desk.mp4" },
+    { label:"DeskWall",              file:"DeskWall.mp4" },
+    { label:"DoubleDoorCabinet",     file:"DoubleDoorCabinet.mp4" },
+    { label:"Drawer",                file:"Drawer.mp4" },
+    { label:"DrawerShelf",           file:"DrawerShelf.mp4" },
+    { label:"EketShelf",             file:"EketShelf.mp4" },
+    { label:"LargeShelf",            file:"LargeShelf.mp4" },
+    { label:"LargeShelfDesk",        file:"LargeShelfDesk.mp4" },
+    { label:"RoundTable",            file:"RoundTable.mp4" },
+    { label:"SingleDoorCabinetDesk", file:"SingleDoorCabinetDesk.mp4" },
+    { label:"TriangleShelfDesk",     file:"TriangleShelfDesk.mp4" },
     
     // 필요한 만큼 줄을 추가하세요:
     // ,{ label:"...", file:"....mp4" }
