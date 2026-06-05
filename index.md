@@ -95,11 +95,9 @@ We evaluate VORM on two tasks: obstruction reasoning and feasibility reasoning. 
 
 VORM achieves the highest F1 on both obstruction and feasibility reasoning across all clutter levels. The results show that VORM not only predicts object-wise obstruction accurately, but also preserves this accuracy when object-wise predictions are aggregated into grasp-level feasibility.
 
-### Simulation Result
-<!-- <p><img src="figure/target_retrieval.gif" alt="target retrieval demo" width="100%" /></p> -->
-<!-- <video controls width="100%">
-  <source src="figure/target_retrieval.mp4" type="video/mp4">
-</video> -->
+### Target Retrieval Simulation
+
+We examine how obstruction reasoning quality affects downstream target retrieval, a TAMP problem. In each scene, the target is the object requiring the most removals before being graspable.
 
 <div class="vorm-viewer">
   <!-- 버튼: 전부 한 열로 쌓임 -->
