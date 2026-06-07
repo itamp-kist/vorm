@@ -41,6 +41,16 @@ affiliations: >
       <br><sup>*</sup>Equal Contribution &nbsp; <sup>&dagger;</sup>Corresponding Author
 -->
 
+<!-- Teaser video: under the Paper button, above the Abstract -->
+<div class="columns is-centered has-text-centered">
+    <div class="column is-full">
+        <video id="teaser-video" autoplay muted loop playsinline controls preload="metadata"
+               style="width:100%; height:auto; border-radius:12px; border:1px solid #e2e2e2; background:#000; display:block;">
+            <source src="video/corl_video.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
